@@ -1,0 +1,63 @@
+.sobre {
+    padding: 2rem 7.5rem 2.25rem;
+    background-color: var(--azul-escuro);
+    color: var(--branco);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.paragrafo {
+    font-family: var(--fonte-secundaria);
+    text-align: justify;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+
+.divft{
+    display:flex
+}
+
+.logo{
+    width: 40px;
+    margin-top: 1rem;
+    margin-right: 1rem
+}
+
+ul li{
+    padding: 5px;
+}
+
+@media (max-width: 1100px) {    
+    .sobre {
+        padding: 3.5rem 1.5rem;
+    }
+
+    .titulo {
+        margin-top: 0;
+        margin-bottom: 1.5rem;
+    }
+
+    .paragrafo {
+        margin-bottom: 1.5rem;
+    }
+
+   
+
+}
+
+@media (max-width: 744px) {
+    .sobre {
+        padding: 2rem 1rem;
+        display: block;
+    }
+
+    .titulo {
+        margin-bottom: 2rem;
+    }
+
+    .paragrafo {
+        margin-bottom: 2rem;
+    }
+
+}

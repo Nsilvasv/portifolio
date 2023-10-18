@@ -1,7 +1,7 @@
 const Atividades = () => {
     return(
         <div>
-            <h1>atividades</h1>
+            <h1>Em criação...</h1>
         </div>
     )
 }

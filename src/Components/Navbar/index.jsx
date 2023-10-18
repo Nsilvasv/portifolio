@@ -8,7 +8,6 @@ const Nav = styled.nav`
     padding: 2rem 7.5rem 2rem;
     align-items:center;
     column-gap: 3rem;
-    background-color:white;
 
 `
 const Navbar = () => {
