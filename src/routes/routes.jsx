@@ -1,10 +1,11 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
-import Home from "../Pages/Home"
 import Atividades from "../Pages/Atividades"
 import Navbar from "../Components/Navbar"
 import Posts from "../Pages/Posts"
 import Sobre from "../Pages/Sobre"
 import Error from "../Pages/Error"
+import Home from "../Pages/Home"
+import Footer from "../Components/Footer"
 
 const Rotas = () => {
     return(
@@ -17,6 +18,7 @@ const Rotas = () => {
                 <Route path="/atividades" element={ <Atividades/> } />
                 <Route path="*" element={ <Error/> } />
             </Routes>
+            <Footer/>
         </BrowserRouter>
     )
 }
