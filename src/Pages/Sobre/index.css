@@ -1,6 +1,6 @@
 .sobre {
     padding: 2rem 7.5rem 2.25rem;
-    background-color: var(--azul-escuro);
+    background: rgb(46, 39, 39);
     color: var(--branco);
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -9,13 +9,21 @@
 .paragrafo {
     font-family: var(--fonte-secundaria);
     text-align: justify;
+    padding: 1rem 1rem;
     font-size: 1.5rem;
     line-height: 2rem;
     margin-bottom: 2rem;
 }
 
+.tec {
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+    font-size:1rem;
+}
+
 .divft{
-    display:flex
+    display:flex;
+    justify-content:center
 }
 
 .logo{

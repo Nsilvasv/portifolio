@@ -2,10 +2,10 @@ import styled from "styled-components"
 import NavLinks from "../Navlink"
 
 const Nav = styled.nav`
-    height: 70px;
+    height: 60px;
     display: flex;
     justify-content:center;
-    padding: 2rem 7.5rem 2rem;
+    padding: 1.5rem 7.5rem 1.5rem;
     align-items:center;
     column-gap: 3rem;
 
