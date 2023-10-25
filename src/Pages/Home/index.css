@@ -1,0 +1,309 @@
+.home {
+    padding: 3rem 7.5rem 5rem;
+    background: rgb(111,111,111);
+    background: linear-gradient(0deg, rgba(111,111,111,1) 0%, rgba(189,189,189,1) 0%, rgba(198,198,198,1) 20%, rgba(255,255,255,1) 100%);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.apresentacao {
+    text-align:center;
+}
+
+.titulo {
+    font-family: var(--fonte-secundaria);
+    font-size: 3.5rem;
+    margin-top: 4.875rem;
+    margin-bottom: 1rem;
+    
+}
+
+.subtitulo {
+  color: red;
+  font-size: 35px;
+}
+
+.lista-icons{
+    margin-top: 3rem;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start
+
+}
+
+.icons{
+    padding-bottom: 1rem;
+    font-size:22px;
+}
+
+.imagens {
+    position: relative;
+    height: 360px;
+    margin-top:3rem;
+
+}
+
+.imagens > .minhaFoto {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 18vw;
+    border-radius: 50%;
+}
+
+
+
+@media (max-width: 1224px) {    
+    .home {
+        padding: 3.5rem 2rem;
+    }
+
+    .titulo {
+        margin-top: 4remrem;
+        margin-bottom: 1rem;
+        font-size: 3rem;
+    }
+
+
+    .lista-icons{
+        display:flex;
+        flex-direction: column;
+        align-items: flex-start
+    
+    }
+    
+    .icons{
+        padding-bottom: 1rem;
+        font-size:20px;
+    }
+    
+
+    .imagens {
+        height: 338px;
+        margin-top:7rem
+    }
+
+    .imagens > .minhaFoto {
+        width: 20vw;
+    }
+}
+
+
+@media (max-width: 1209px) {    
+    .home {
+        padding: 3.5rem 2rem;
+    }
+
+    .titulo {
+        margin-top: 4remrem;
+        margin-bottom: 1rem;
+        font-size: 3rem;
+    }
+
+
+    .lista-icons{
+        display:flex;
+        flex-direction: column;
+        align-items: flex-start
+    
+    }
+    
+    .icons{
+        padding-bottom: 1rem;
+        font-size:20px;
+    }
+    
+
+    .imagens {
+        height: 338px;
+        margin-top:6rem
+    }
+
+    .imagens > .minhaFoto {
+        width: 20vw;
+    }
+}
+
+
+@media (max-width: 905px) {    
+    .home {
+        padding: 3rem 1.5rem;
+    }
+
+    
+    .titulo {
+        margin-top: 4rem;
+        margin-bottom: 0.8rem;
+        font-size: 2.5rem;
+    }
+
+    .subtitulo {
+        font-size: 28px
+    }
+
+    .lista-icons{
+        display:flex;
+        flex-direction: row;
+        justify-content:center;
+        align-content:center
+    
+    }
+    
+    .icons{
+        padding-top: 1rem;
+        padding-right: 1rem;
+        font-size:20px;
+    }
+    
+
+    .imagens {
+        height: 338px;
+    }
+
+    .imagens > .minhaFoto {
+        width: 25vw;
+    }
+
+}
+
+
+
+@media (max-width: 750px) {
+    .home {
+        padding: 2rem 1rem;
+        display: block;
+    }
+
+    .titulo {
+        margin-top: 4rem;
+        margin-bottom: 1rem;
+        font-size: 2.3rem;
+    }
+
+    .subtitulo {
+        margin-bottom: 2rem;
+    }
+
+    .lista-icons{
+        display:flex;
+        flex-direction: row;
+    
+    }
+    
+    .icons{
+        padding-bottom: 1rem;
+        font-size:20px;
+    }
+    
+
+    .imagens {
+        height: 250px;
+    }
+
+    .imagens > .minhaFoto {
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+
+    .imagens > .minhaFoto {
+        width: 200px;
+        transform: translate(6rem, 0px);
+    }
+
+
+}
+
+
+@media (max-width: 400px) {
+    .home {
+        padding: 2rem 1rem;
+        display: block;
+    }
+
+    .titulo {
+        margin-top: 4rem;
+        margin-bottom: 0.5rem;
+        font-size: 2rem;
+    }
+
+    .subtitulo {
+        font-size:25px
+    }
+
+    .lista-icons{
+        display:flex;
+        flex-direction: row;
+    
+    }
+    
+    .icons{
+        padding-bottom: 1rem;
+        font-size:20px;
+    }
+    
+
+    .imagens {
+        height: 250px;
+    }
+
+    .imagens > .minhaFoto {
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+
+    .imagens > .minhaFoto {
+        width: 200px;
+        transform: translate(4rem, 0px);
+    }
+
+
+}
+
+
+@media (max-width: 350px) {
+    .home {
+        padding: 2rem 1rem;
+        display: block;
+    }
+
+    .titulo {
+        margin-top: 4rem;
+        margin-bottom: 0.5rem;
+        font-size: 2rem;
+    }
+
+    .subtitulo {
+        font-size:25px
+    }
+
+    .lista-icons{
+        display:flex;
+        flex-direction: row;
+    
+    }
+    
+    .icons{
+        padding-bottom: 1rem;
+        font-size:20px;
+    }
+    
+
+    .imagens {
+        height: 200px;
+    }
+
+    .imagens > .minhaFoto {
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+
+    .imagens > .minhaFoto {
+        width: 200px;
+        transform: translate(4rem, 0px);
+    }
+
+
+}

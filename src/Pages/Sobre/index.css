@@ -1,7 +1,8 @@
 .sobre {
     padding: 2rem 7.5rem 2.25rem;
-    background: rgb(46, 39, 39);
-    color: var(--branco);
+    background: rgb(111,111,111);
+    background: linear-gradient(0deg, rgba(111,111,111,1) 0%, rgba(189,189,189,1) 0%, rgba(198,198,198,1) 20%, rgba(255,255,255,1) 100%);
+    color: var(--azul-escuro);
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -9,16 +10,17 @@
 .paragrafo {
     font-family: var(--fonte-secundaria);
     text-align: justify;
-    padding: 1rem 1rem;
+    padding: 1.5rem 1rem;
     font-size: 1.5rem;
     line-height: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .tec {
     text-align: center;
     font-family: var(--fonte-secundaria);
     font-size:1rem;
+    margin-bottom: 4rem;
 }
 
 .divft{
