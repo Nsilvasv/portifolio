@@ -8,11 +8,13 @@ const Rodape = styled.footer`
     align-items: center;
     background-color: #bebebe;
 `
-
+const Texto = styled.p`
+    font-size: 20px;
+`
 const Footer = () => {
     return (
         <Rodape>
-            <p >&copy; Desenvolvido por Nathan</p>
+            <Texto >&copy; Desenvolvido por Nathan</Texto>
         </Rodape>
     )
 }
