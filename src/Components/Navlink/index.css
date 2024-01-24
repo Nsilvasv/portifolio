@@ -1,5 +1,5 @@
 .link { 
-    font-size: 1.50rem;
+    font-size: 1.5rem;
     line-height: 1rem;
     color: var(--cor-fonte-principal);
 }
@@ -8,4 +8,16 @@
     text-decoration: underline;
     color: black;
     
+}
+
+@media (max-width: 454px) {
+    .link{
+        font-size:1.3rem;
+    }
+}
+
+@media (max-width: 300px) {
+    .link{
+        font-size:1.1rem;
+    }
 }

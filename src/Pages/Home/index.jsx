@@ -4,7 +4,17 @@ import { BsInstagram, BsGithub, BsLinkedin } from 'react-icons/bs';
 import { Typewriter } from 'react-simple-typewriter'
 import ft from "../../img/ft.avif"
 import Button from "../../Components/Button";
+import styled from "styled-components";
 
+const Subtitulo = styled.span`
+    color: red;
+    font-size: 35px;
+
+    @media (max-width: 460px) {
+        font-size: 25px;
+    }
+
+`
 
 const Home = () => {
 
@@ -15,7 +25,7 @@ const Home = () => {
 
                 <h1 className="titulo">Olá, Eu sou Nathan</h1>
 
-                <span className="subtitulo">
+                <Subtitulo>
                         {/* Style will be inherited from the parent element */}
                         <Typewriter
                             words={[' Desenvolvedor web', ' Bem-vindo!']}
@@ -27,7 +37,7 @@ const Home = () => {
                             delaySpeed={1000}
                       
                         />
-                </span>
+                </Subtitulo>
 
             
                 <div>
